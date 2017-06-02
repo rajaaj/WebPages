@@ -1,0 +1,398 @@
+/* CSS Document */
+
+/* universal for making page without any marging and border */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* container of whole pagewith background-image of top and bottom block */
+.container {
+	width: 1300px;
+	height: 2303px;
+	background-image: url(image/Background.png);
+	padding-top: 76px;
+    font-family: Calibri;
+}
+
+.main {
+	background-image: url(image/banner_bottom.png);
+	height: 888px;
+	width: auto;
+	padding: 78px 79px 0 80px;
+}
+
+.txt {
+	width: 570px;
+	height: 96px;
+	
+	color: #ffffff;
+	font-weight: 300;
+	font-size: 34px;
+	line-height: 33px;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.txt p:nth-child(2) {
+	font-size: 22px;
+}
+
+
+.did {
+	width: 177px;
+	height: 17px;
+	
+	color: #e8daad;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 15px;
+	text-transform: uppercase;
+	margin-top: 71px;
+	padding: 0;
+}
+
+.box {
+	margin-top: 28px;
+}
+
+.inner-box {
+	width: 209px;
+	height: 124px;
+	background-color: rgba(0, 0, 0, 0.3);
+	float: left;
+	margin-right: 24px;
+}
+
+.box div:last-child {
+	margin-right: 0px;
+}
+
+.inner-box p {
+	
+	color: #ffffff;
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 22px;
+	margin: 17px auto auto 16px;
+}
+
+.inner-box p:nth-child(2) {
+	font-size: 16px;
+	margin: 0px auto auto 16px;
+}
+
+/* to clear left floting */
+.clear-left{
+	clear: left;
+}
+
+/* button design */
+.button-1 {
+	width: 364px;
+	height: 50px;
+	border-radius: 3px;
+	background-color: #e0b03c;
+	box-shadow: 4px 5px 0px 0px #000000;
+	margin: 59px auto 0;
+}
+
+/* button teat format */
+.button-1 p {
+	
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 50px;
+	text-align: center;
+}
+
+/* container for centered text */
+.line {
+	width: auto;
+	margin: 63px auto 0;
+	display: table;
+}
+
+.yellow-line {
+	width: 50px;
+	height: 4px;
+	background-color: #e0b03c;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.center-text {
+	width: 359px;
+	height: 26px;
+	
+	color: #ffffff;
+	font-size: 37px;
+	font-weight: 300;
+	line-height: 26px;
+	display: inline-block;
+	text-transform: uppercase;	
+}
+
+/* container for circled image and text */
+.circle-box {
+	margin-top: 69px;
+}
+
+.circle {
+	width: 190px;
+	height: 190px;
+	float: left;
+	margin-right: 43px;
+}
+
+#circle-1 {
+	background-image: url(image/photography_camera_wallpaper_free_desktop.png);
+	background-size: contain;
+}
+
+#circle-2 {
+	background-image: url(image/C37JZH.png);
+	background-size: contain;
+}
+
+#circle-3 {
+	background-image: url(image/mood-girl-bracelet-decoration-accessories-hat-hat-topic-nails-lacquer-blur-background-wallpaper-widescreen-full-screen-widescreen-hd-wallpapers-background-wallpaper-widescreen-fullscreen-widescreen.png);
+	background-size: contain;
+}
+
+#circle-4 {
+	background-image: url(image/truck-2.png);
+	background-size: contain;
+}
+
+#circle-5 {
+	background-image: url(image/chiuda-sulla-donna-della-mano-che-utilizza-lo-smartphone-nella-caffetteria-60614288.png);
+	background-size: contain;
+}
+
+/* to prevent the box going out of border by making margin-right none */
+.circle-box div:nth-child(5) {
+	margin: 0;
+}
+
+.inner-circle {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: rgba(224, 176, 60, 0.9);
+	margin: 35px;
+}
+
+.inner-circle p {
+	width: 98px;
+	height: 60px;
+	
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 300;
+	padding: 30px 11px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.number-image {
+	width: 966px;
+	height: 47px;
+	margin-left: 79px;
+	margin-bottom: 41px;
+	background-image: url(image/Steps.png);
+	
+}
+
+.logos p {
+	margin-top: 43px;
+	
+	color: #e0b03c;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.yellow-line-2 {
+	width: 49px;
+	height: 3px;
+	background-color: #e0b03c;
+	display: table;
+	margin: 11px auto 0;
+}
+
+.logo-left {
+	width: 648px;
+	height: 212px;
+	background-color: #2a3944;
+	float: left;	
+}
+
+.inner-logo {
+	width: 620px;
+	height: 50px;
+}
+
+.inner-logo img {
+	margin: 32px 20px auto;
+}
+
+.dots {
+	margin: 37px auto 37px 296px;
+}
+
+.dot {
+	background-image: url(image/Ellipse_1_copy_3.png);
+	background-size: contain;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}
+
+/* for changing circle dot to active when slider logo changes */
+.dot.active {
+	background-image: url(image/Ellipse_1.png);
+}
+
+.logo-right {
+	width: 652px;
+	height: 212px;
+	background-color: rgba(42, 57, 68, 0.9);
+	float: left;
+}
+
+.button-2 {
+	width: 288px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: #e0b03c;
+	display: table;
+	margin: 30px auto 26px;
+}
+
+.button-2 p {
+	
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 15px;
+	text-align: center;
+	margin: 12px 18px 10px 17px;
+	padding: 0;
+	
+}
+
+.sell {
+	width: auto;
+	height: 580px;
+	background-color: #fff4da;
+	padding: 47px 79px 0 80px;
+}
+
+#sell-1 {
+	width: 327px;
+	height: 20px;
+	
+	color: #2d2d2d;
+	font-size: 28px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#bottom-border {
+	display: table;
+	margin: 20px auto 0;
+}
+
+.girl-box {
+	margin-top: 44px;
+}
+
+.girl-box-name {
+	border: 1px solid blue;
+	width: 265px;
+	height: 320px;
+	background-color: #2a3944;
+	display: inline-block;
+	margin-right: 19px;
+}
+
+.girl-box div:nth-child(4) {
+	margin: 0;
+}
+
+.girl-box-name img {
+	width: 255px;
+	height: 245px;
+	display: table;
+	margin: 5px auto 15px;
+}
+
+.girl-box-name p {
+	
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+.girl-box-name p:last-child {
+	text-transform: none;
+	font-style: italic;
+}
+
+.button-3 {
+	width: 166px;
+	height: 40px;
+	border-radius: 3px;
+	background-color: #e0b03c;
+	margin: 51px auto 51px;
+}
+
+.button-3 p {
+	
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+}
+
+
+
+
+
+
+.containerr {
+  max-width: 400px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.containerr div {
+  background-color: black;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.containerr img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
+}

@@ -1,0 +1,3 @@
+Saurabh Chandra Bose
+
+I have used the background image extracted from .psd file for upper and lower block content because any type of information and details about that were not given in the .psd file layers.
